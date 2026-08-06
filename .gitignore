@@ -1,0 +1,53 @@
+# GNU Make dependency files
+*.d
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# Libraries
+*.a
+*.la
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables and linker output
+*.out
+*.exe
+*.elf
+*.hex
+*.map
+*.ilk
+*.exp
+
+# Keep Makefiles in out-of-source build directories; ignore their products
+**/build/*
+!**/build/Makefile
+
+# Coverage, profiling, and analysis output
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+compile_commands.json
+
+# Debugger and crash output
+core
+core.*
+vgcore.*
+*.dSYM/
+*.dwo
+*.su
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*~
+*.swp
+.DS_Store
+Thumbs.db
