@@ -1,6 +1,6 @@
 # Copy this directory beside a src/ directory for a new solution.
 
-TARGET  = solution.out
+TARGET  = dweight2.out
 SOURCES = dweight2.c
 CSTD    = c99
 

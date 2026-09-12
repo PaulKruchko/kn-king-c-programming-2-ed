@@ -1,6 +1,6 @@
 # Copy this directory beside a src/ directory for a new solution.
 
-TARGET  = solution.out
+TARGET  = pun.out
 SOURCES = pun.c
 CSTD    = c99
 
